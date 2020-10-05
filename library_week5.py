@@ -116,12 +116,12 @@ def poly_function(x,a):
     return sum
 
 def first_derivative(x,a):
-    h=0.001
+    h=10**(-6)
     y=(poly_function(x+h,a)-poly_function(x-h,a))/(2*h)
     return y
 
 def s_derivative(x,a):
-    h = 0.001
+    h = 10**(-6)
     y = (poly_function(x + h, a) + poly_function(x - h, a)-2*poly_function(x,a)) / (2 * h*h)
     return y
 
