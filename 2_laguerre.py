@@ -17,8 +17,8 @@ a=laguerre(poly_function,first_derivative,s_derivative,a,guess)
 '''
 Enter your initial guess:2.3
 Solutions of the polynomial equation are:
-2.0000005707667103
-3.000031671048423
-0.9999529659652182
--2.9999852077803517
+2.00007265353316
+0.9999545733919009
+2.999970510139103
+-2.999997737064164
 '''
